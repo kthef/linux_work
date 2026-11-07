@@ -1,0 +1,4 @@
+import requests 
+
+response = requests.get('https://api.github.com') 
+print("HTTP Statuscode:", response.status_code)
